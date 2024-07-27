@@ -16,7 +16,7 @@
  При выполнении задания из библиотек следует использовать только Django и стандартную библиотеку Python.
 
  При решении тестового задания у вас не должно возникнуть вопросов. Если появляются вопросы, вероятнее всего, у вас недостаточно знаний.
- 
+
  Задание выложить на гитхаб.
 
 # Django Menu Project
@@ -38,14 +38,14 @@ This project demonstrates how to create a dynamic, tree-like menu system in Djan
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/django-menu-project.git
+   git clone https://github.com/Vsirotkin/Menu_Project.git
    cd django-menu-project
    ```
 
 2. **Set Up Pipenv**:
    ```bash
-   pipenv install
    pipenv shell
+   pipenv install
    ```
 
 3. **Apply Migrations**:
@@ -93,6 +93,7 @@ Basic views and URL patterns are defined in `menu/views.py` and `menu/urls.py`.
 
 ### Main Template
 
+Template's structure is based on "_base.html", all other templates expand from it.
 The main template `menu/home.html` includes the menu using the `draw_menu` template tag.
 
 
